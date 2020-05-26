@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SUMA DE DOS MATRICES</title>
+</head>
+<body>
+	<script type="text/javascript">
+	document.write("Matriz SUMA 1<br>")
+	var malitriz=new Array(3);
+	for (var i = 1; i <= 3; i++)
+	{
+		malitriz[i] = new Array(3);
+	}
+	for (i = 1; i<= 3; i++)
+	{
+		for (j = 1; j <= 3; j++)
+		{
+			matriz[i][j]=parseInt(prompt("INGRESA LOS NUMEROS:"))
+		}
+	}
+	for (i = 1; i<= 3; i++)
+	{
+		for (j = 1; j <= 3; j++)
+		{
+			document.write(malitriz[i][j]+" ")
+		}
+		document.write("<br>")
+	}
+	document.write("<br>Matriz SUMA 2<<br>")
+	var maretris=new Array(3);
+	for (var i = 1; i <= 3; i++)
+	{
+		maretris[i] = new Array(3);
+	}
+	for (i = 1; i<= 3; i++)
+	{
+		for (j = 1; j <= 3; j++)
+		{
+			maretris[i][j]=parseInt(prompt("INGRESA LOS NUMEROS"))
+		}
+	}
+	for (i = 1; i<= 3; i++)
+	{
+		for (j = 1; j <= 3; j++)
+		{
+			document.write(maretris[i][j]+" ")
+		}
+		document.write("<br>")
+	}
+	document.write("<br>SUMA<br>")
+	var SUMA_MATRIS=new Array(3);
+	for (i = 1; i<= 3; i++)
+	{
+		for (j = 1; j <= 3; j++)
+		{
+			suma=malitriz[i][j]-maretris[i][j]
+			document.write(suma+"  ")
+		}
+		document.write("<br>")
+	}
+	</script>>
+</body>
+</html>>
